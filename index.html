@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chandra Akash Kiran — Junior Data Scientist, Machine Learning and GenAI portfolio." />
+  <title>Chandra Akash Kiran | Data Scientist & ML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home">CAK<span>.</span></a>
+      <button class="menu" aria-label="Open navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Chandra Akash Kiran</h1>
+        <h2>Junior Data Scientist <span>•</span> Machine Learning <span>•</span> GenAI</h2>
+        <p class="lead">I build data-driven and AI-powered solutions using Python, SQL, Machine Learning, LLMs and Retrieval-Augmented Generation.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View My Projects</a>
+          <a class="btn" href="resume.pdf" target="_blank">View Resume</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://github.com/chandraAkiran" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/chandra-a-kiran-176743184" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="code-dot-row"><i></i><i></i><i></i></div>
+        <pre><code><span>profile</span> = {
+  "role": "Junior Data Scientist",
+  "focus": [
+    "Machine Learning",
+    "Generative AI",
+    "Data Analytics"
+  ],
+  "stack": [
+    "Python", "SQL",
+    "scikit-learn",
+    "LangChain", "RAG"
+  ],
+  "location": "Bengaluru, India",
+  "remote": True
+}</code></pre>
+      </div>
+    </section>
+
+    <section class="section alt" id="about">
+      <div class="container">
+        <p class="eyebrow">ABOUT</p><h2 class="section-title">Turning data into useful decisions.</h2>
+        <div class="about-grid">
+          <p>I’m a Computer Science postgraduate focused on Data Science, Machine Learning and Generative AI. My work spans data preprocessing, exploratory analysis, feature engineering, imbalanced classification, model evaluation, vector search and AI application development.</p>
+          <div class="stats">
+            <div><strong>100K+</strong><span>records processed</span></div>
+            <div><strong>97.81%</strong><span>fraud model ROC-AUC</span></div>
+            <div><strong>40%</strong><span>reporting time reduction</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">TECHNICAL TOOLKIT</p><h2 class="section-title">Skills</h2>
+      <div class="skill-grid">
+        <article><h3>Programming & Data</h3><p>Python · SQL · Pandas · NumPy · PostgreSQL · Excel · Jupyter</p></article>
+        <article><h3>Machine Learning</h3><p>scikit-learn · Logistic Regression · Random Forest · SMOTE · Feature Engineering · Model Evaluation</p></article>
+        <article><h3>GenAI & Applied AI</h3><p>LLMs · RAG · LangChain · Gemini · OpenAI · Prompt Engineering · Embeddings · ChromaDB · AI Agents</p></article>
+        <article><h3>Visualization</h3><p>Power BI · Tableau · Matplotlib · Plotly · Streamlit · Dashboard Development</p></article>
+        <article><h3>Data & Backend</h3><p>ETL · REST APIs · BeautifulSoup · Selenium · FastAPI · Supabase · AWS S3</p></article>
+        <article><h3>Cloud & Development</h3><p>Git · GitHub · Vercel · Render</p></article>
+      </div>
+    </section>
+
+    <section class="section alt" id="projects">
+      <div class="container">
+        <p class="eyebrow">SELECTED WORK</p><h2 class="section-title">Featured Projects</h2>
+        <div class="projects">
+          <article class="project featured">
+            <div><span class="tag">GENAI · RAG</span><h3>Enterprise GPT — AI Knowledge Assistant</h3>
+              <p>Full-stack enterprise knowledge assistant that answers natural-language questions from uploaded PDFs using Retrieval-Augmented Generation.</p>
+              <ul><li>PDF ingestion → chunking → embeddings → vector retrieval → grounded LLM responses</li>
+              <li>Multi-LLM support with Gemini and OpenAI plus LangChain agents</li>
+              <li>Supabase authentication, document metadata, chat history and file management</li></ul>
+              <div class="tech">Python · FastAPI · LangChain · Gemini · OpenAI · ChromaDB · Supabase · Next.js</div>
+              <div class="actions small">
+                <a class="btn primary" href="https://infosys-ai-knowledge-assistant.vercel.app" target="_blank">Live Demo ↗</a>
+                <a class="btn" href="https://github.com/chandraAkiran/infosys-ai-knowledge-assistant" target="_blank">GitHub ↗</a>
+              </div>
+            </div>
+            <div class="project-visual"><span>RAG</span><b>Enterprise AI</b><small>Documents → Embeddings → Retrieval → LLM</small></div>
+          </article>
+
+          <div class="project-grid">
+            <article class="project">
+              <span class="tag">MACHINE LEARNING</span><h3>Credit Card Fraud Detection</h3>
+              <p>Built and compared classification models for highly imbalanced transaction data, including SMOTE and threshold optimization.</p>
+              <div class="metric-row"><span><b>97.81%</b> ROC-AUC</span><span><b>82.54%</b> F1</span><span><b>94.55%</b> Precision</span></div>
+              <div class="tech">Python · Pandas · scikit-learn · Random Forest · Streamlit</div>
+            </article>
+            <article class="project">
+              <span class="tag">SQL · ANALYTICS</span><h3>Zomato SQL Capstone</h3>
+              <p>Designed a normalized relational database and used advanced SQL to analyze revenue, customer behavior, restaurant performance and delivery efficiency.</p>
+              <div class="tech">PostgreSQL · JOINs · CTEs · Subqueries · Window Functions</div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <p class="eyebrow">CAREER</p><h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <article><div class="when">2023</div><div><h3>Data Analyst Intern <span>· GrowthPaay</span></h3><p>Collected data through Python, BeautifulSoup, Selenium and REST APIs; cleaned and validated 100K+ records; developed SQL queries and automated reporting workflows, reducing report-generation time by 40%.</p></div></article>
+        <article><div class="when">2019–20</div><div><h3>System Engineer <span>· Natrinai Technology Pvt. Ltd.</span></h3><p>Built Python workflows for extraction, processing, validation and reporting, and automation using Selenium and Robot Framework.</p></div></article>
+        <article><div class="when">2014–16</div><div><h3>Data Operator <span>· Planning and Statistical Department</span></h3><p>Managed, cleaned and validated government datasets in Excel and prepared analytical reports using Pivot Tables and data-processing techniques.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section alt" id="education">
+      <div class="container">
+        <p class="eyebrow">BACKGROUND</p><h2 class="section-title">Education & Certifications</h2>
+        <div class="edu-grid">
+          <article><span>2013–2016</span><h3>MTech in Computer Science</h3><p>MATS University, Raipur, Chhattisgarh</p></article>
+          <article><span>2010–2013</span><h3>BE in Computer Science</h3><p>CSVTU, Bhilai, Chhattisgarh</p></article>
+        </div>
+        <div class="certs"><span>IBM Data Science Professional Certificate</span><span>Masai School — Data Analytics</span><span>Python for Data Science & ML — Udemy</span></div>
+      </div>
+    </section>
+
+    <section class="section contact container" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Open to Junior Data Scientist, ML and Data roles.</h2>
+      <p>Based in Bengaluru, India · Open to worldwide / APAC remote opportunities.</p>
+      <div class="actions">
+        <a class="btn primary" href="mailto:c9a9kiran@gmail.com">Email Me</a>
+        <a class="btn" href="https://www.linkedin.com/in/chandra-a-kiran-176743184" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container">© <span id="year"></span> Chandra Akash Kiran · Built for Data Science & AI.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
