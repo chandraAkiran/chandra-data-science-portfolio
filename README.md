@@ -4,6 +4,8 @@ Personal portfolio showcasing hands-on projects in **Data Science, Machine Learn
 
 I am a **Junior Data Scientist / Machine Learning practitioner** with experience using Python, SQL, Pandas, NumPy, scikit-learn, Streamlit, LangChain, LLMs, and data analytics tools to build end-to-end data and AI solutions.
 
+🌐 **Portfolio:** https://chandra-data-science-portfolio.vercel.app
+
 ## Portfolio Focus
 
 - Data Science & Exploratory Data Analysis
@@ -145,6 +147,7 @@ Bengaluru, India
 Open to Worldwide / APAC Remote Opportunities
 
 **Email:** c9a9kiran@gmail.com  
+**Portfolio:** https://chandra-data-science-portfolio.vercel.app
 **LinkedIn:** https://www.linkedin.com/in/chandra-a-kiran-176743184  
 **GitHub:** https://github.com/chandraAkiran
 
